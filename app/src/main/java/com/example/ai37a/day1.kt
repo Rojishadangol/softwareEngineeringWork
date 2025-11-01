@@ -94,3 +94,17 @@ fun main() {
 
 
 }
+
+//function call
+val result = calculate(a=5,b=3)
+
+
+
+
+//function
+fun calculate(a: Int, b: Int) : Int{
+    return a+b
+}
+//
+fun login(username:String, password:String): Unit {
+}
